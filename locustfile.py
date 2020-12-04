@@ -7,7 +7,7 @@ class UserBehavior(HttpUser):
     def __init__(self, parent):
        super(UserBehavior, self).__init__(parent)
 
-       self.token = "eyJhbGciOiJIUzUxMiJ9.eyJvcmdhbml6YXRpb25faW4iOiI4OTA5MDUzNTA5MDEiLCJpc19yZWZyZXNoX3Rva2VuIjp0cnVlLCJ0b2tlbl9leHBpcmF0aW9uX2RhdGUiOjE2MDk3NTIzNDU3MjUsImV4cCI6MTYwOTc1MjM0NSwiZW1wbG95ZWVfaW4iOiI4NzkwNjU3ODQzMjEiLCJ1c2VybmFtZSI6Im1lbjFAbWVuMSIsInRva2VuX2NyZWF0ZV9kYXRlIjoxNjA3MDczOTQ1NzI1fQ.MuNqK2NkGVGl3J7xCZdPbqYRP9t1Og-xuDV4awD6DpHKDFw_Pue87TYHt2Pmy9tCSHzayE4Uj5ffZfHoh5zoDg"
+       self.token = ""
        self.headers = {}
        self.product_request = None
 
